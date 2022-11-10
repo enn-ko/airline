@@ -6,7 +6,7 @@ jobs:
   runs_on: ubuntu_lastest
 
   steps:
-    -uses: actions/checkout@v2
+  -uses: actions/checkout@v2
   -name: Run Django unit tests
 
     run:
