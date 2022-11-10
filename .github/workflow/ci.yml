@@ -10,5 +10,5 @@ jobs:
   -name: Run Django unit tests
 
     run:
-      -pip2 install __user django
+      pip2 install __user django
       python3 manage.py test
